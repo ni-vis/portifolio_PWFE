@@ -1,0 +1,138 @@
+/* DOCUMENTO CSS */
+
+/* RESET CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+   
+}
+body {
+	font-family: Helvetica;
+	background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    width: 33%;
+    background-color: #E1D4BE99;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 33%;
+    padding-top:70px;
+    border: 2px solid #00000099;
+    height:450px;
+    
+}
+.menu button{
+    background-color: #655E5499;
+    margin: 20px 10px 10px 160px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+}
+.menu h1{
+    margin: 0px 0px 0px 220px;
+   
+}
+#boxcadastro {
+    width: 33%;
+    background-color: #E1D4BE99;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 33%;
+    padding-top:70px;
+    
+}
+#boxcadastro h2{
+    margin: 0px 0px 0px 45px;
+    
+}
+
+.linha {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+}
+.linha .boxlinha {
+    width: 33%;
+    margin: 10px 10px 10px 50px;
+    padding-bottom: 10px;
+}
+.linha .boxlinha input {
+    background-color:#EFECE899;
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+}
+.linha .boxlinha button {
+    width: 50%;
+    margin: 10px 10px 10px 5px;
+}
+#boxcadastro button{
+    width: 150px;
+    height: 50px;
+    background-color: #655E5499;
+    border-radius: 5px;
+}
+.acesso  {
+    width: 33%;
+    background-color: #9b9c9a99;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 33%;
+    padding-top:70px;
+    border: 2px solid #00000099;
+}
+.acesso form{
+    width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+
+}
+.acesso button{
+    background-color: #655E5499;
+    height: 50px;
+    width: 800px;
+}
+.logoff{
+    width: 33%;
+    height: 300px;
+    background-color: #E1D4BE99;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 33%;
+    padding-top:70px;
+    border: 2px solid #00000099;
+    padding: 50px;
+    
+}
+.logoff button{
+    background-color: #655E5499;
+    display: flex;
+    margin: 150px 0px 10px 125px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1128px) {
+
+    .coluna {
+        width:48%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .coluna {
+        width:100%;
+        margin: 0;
+    }
+
+}
