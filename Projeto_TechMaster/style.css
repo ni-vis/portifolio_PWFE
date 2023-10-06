@@ -1,0 +1,55 @@
+/* DOCUMENTO CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:rgb(18, 18, 18);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+header{
+    background-color: #336064;
+    width: auto;
+    height: 100px;
+}
+.geral{
+    display: flex;
+    justify-content: space-between;    
+}
+.imgs {
+    margin-left: 5px;
+    width: 15%;
+    height: auto;
+}
+.main {
+    width: 45%;
+    height: auto;
+}
+.info {
+    height: auto;
+    width: 23%;
+}
+.info h1 {
+    padding-top: 50%;
+}
+.info button {
+    background: #2ecc71;
+    color: #fff;
+    height: 5%;
+    width: 40%;
+}
+.info button:hover {
+    background: #27ae60;
+}
+.info button:active {
+    background: #27ae60;
+    top: 2px;
+}
+.info button:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
